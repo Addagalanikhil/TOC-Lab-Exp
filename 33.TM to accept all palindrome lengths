@@ -1,0 +1,135 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {326 273}
+	}
+	state {
+		final {yes}
+		coord {639 267}
+	}
+	state {
+		coord {924 254}
+	}
+	state {
+		coord {466 500}
+	}
+	state {
+		coord {818 488}
+	}
+	state {
+		coord {438 50}
+	}
+	state {
+		coord {784 45}
+	}
+	edge 0 5 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {2.5652174329986095}
+		direction {R}
+		output {a}
+	}
+	edge 5 5 {
+		transits {b}
+		offset {-1.601555852865366}
+		direction {R}
+		output {b}
+	}
+	edge 5 6 {
+		transits {c}
+		offset {0.2235558953631485}
+		direction {L}
+		output {c}
+	}
+	edge 0 1 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 6 1 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 4 1 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 3 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {2.6066375798036967}
+		direction {R}
+		output {b}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.2513989103418933}
+		direction {L}
+		output {_}
+	}
+	edge 6 2 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {c}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {2.7868870015788527}
+		direction {L}
+		output {b}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {0.4729066036629292}
+		direction {L}
+		output {a}
+	}
+	edge 4 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {c}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {-0.44751997515716985}
+		direction {R}
+		output {c}
+	}
+	edge 2 0 {
+		transits {c}
+		offset {1.7459463849575885}
+		direction {R}
+		output {c}
+	}
+	edge 5 6 {
+		transits {_}
+		offset {-0.39376304064283446}
+		direction {L}
+		output {_}
+	}
+	edge 3 4 {
+		transits {c}
+		offset {-0.4273110060734916}
+		direction {L}
+		output {c}
+	}
+}
